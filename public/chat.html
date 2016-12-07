@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ChatRoom</title>
+  <link rel="stylesheet" href="css/style-chat.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/css/bootstrap.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/animatecss/3.5.2/animate.css">
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/wow/1.1.2/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</head>
+
+<body>
+  <div class="container login-screen">
+    <!--Chat Title-->
+    <div class="app-title">
+
+      <h1 class="chat-group-title"></h1>
+    </div>
+
+
+
+    <div class="message-display wow bounceInUp">
+      <!--message gets displayed here-->
+    </div>
+
+
+  </div>
+
+  <div class="footer">
+    <form class="form-horizontal">
+
+      <input class="row-footer" type="text" name="message" width="100" />
+      <input class="row-footer-send" type="submit" value="Send" />
+    </form>
+
+  </div>
+
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/socket.io-1.4.8.js"></script>
+  <script src="js/moment.js"></script>
+  <script src="js/QueryParams.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
